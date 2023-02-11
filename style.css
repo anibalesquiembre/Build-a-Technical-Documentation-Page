@@ -1,22 +1,48 @@
 #navbar
 { 
 height: 100%;
-width: 115px;
+width: 300px;
 position:fixed;
 text-align: left;
 z-index: 1;
 top: 0px;
 bottom: 0px;
 left: 0px;
-
+border-right: solid 3px gray;
 
 }
-.navbar a
-{   padding: 20px;
+
+#navbar h1 {
+    padding-left: 20px;
+}
+#navbar a
+{   padding: 15px 20px;
     text-decoration:none;
     color: black;
-    font-size: medium;
+    font-size: 17px;
     display: block;
-
+    border-top: solid 1px gray;
 }
 
+.main-section{
+    margin-left:300px;
+    padding-left:20px;
+}
+
+#main-doc {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    padding-left: 20px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+code {
+    margin-left: 25px;
+    padding: 15px 10px;
+    background-color: rgb(202, 198, 198);
+}
